@@ -1,19 +1,25 @@
 public class BankAccount {
     private double balance;
     private String name;
-        public BankAccount(double balance, String name){
+    private int accountNumber;
+//        public BankAccount(){
+//            this.balance = balance;
+//            this.name = name;
+//        }
+        public BankAccount(double balance, String name,int accountNumber){
             this.balance = balance;
             this.name = name;
+            this.accountNumber = accountNumber;
         }
         public void deposit(double deposit){
-            this.balance += deposit;
+            balance += deposit;
         }
         public void withdrawl(double withdrawl){
-            this.balance -= withdrawl;
+            balance -= withdrawl;
         }
         public void getAccountInfo(){
-            System.out.println("The account holder is: " + this.name);
-            System.out.println("The account balance is: " + this.balance);
+            System.out.println("The account holder is: " + name);
+            System.out.println("The account balance is: " + balance);
         }
 
 }

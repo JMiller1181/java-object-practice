@@ -5,12 +5,12 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         //First set of assignments: Constructor practice
         //Constructor practice First exercise
-        BankAccount account = new BankAccount(500,"Jacob Miller");
+        BankAccount account = new BankAccount(500,"Jacob Miller",0);
         account.deposit(100);
         account.getAccountInfo();
         //Constructor practice second exercise
-        BankAccount account1 = new BankAccount(5000,"Richard");
-        BankAccount account2 = new BankAccount(300,"Leo");
+        BankAccount account1 = new BankAccount(5000,"Richard",1);
+        BankAccount account2 = new BankAccount(300,"Leo",2);
         account1.withdrawl(100);
         account2.deposit(100);
         account1.getAccountInfo();
@@ -98,6 +98,8 @@ public class Main {
                 System.out.println(entry.getTitle());
             }
         }
+        //Bank Accounts Cont.
+        //Bank Accounts Cont. First exercise
 
     }
 }
