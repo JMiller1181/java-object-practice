@@ -5,6 +5,15 @@ public class Animal {
         this.name = name;
         this.isDog = isDog;
     }
+    public Animal(String name){
+        this.name = name;
+    }
+    public Animal(boolean isDog){
+        this.isDog = isDog;
+    }
+    public Animal(){
+    }
+
     public String getName(){
         return name;
     }

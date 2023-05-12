@@ -7,7 +7,22 @@ public class Book {
         this.title = title;
         this.year = year;
     }
-
+    public Book(int pages, int year){
+        this.pages = pages;
+        this.year = year;
+    }
+    public Book(int year){
+        this.year = year;
+    }
+    public Book(String title, int pages){
+        this.title = title;
+        this.pages = pages;
+    }
+    public Book(String title){
+        this.title = title;
+    }
+    public Book(){
+    }
     public String getTitle() {
         return title;
     }
