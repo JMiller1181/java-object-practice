@@ -150,6 +150,7 @@ public class Main {
         TvShow epsGenre = new TvShow(30, "Comedy");
         TvShow eps = new TvShow(15);
         TvShow titleGenre = new TvShow("Another TV show", "Drama");
+        TvShow showName = new TvShow("A show with a name");
         TvShow emptyV = new TvShow();
 
         Animal animalName = new Animal("Kevin Bacon");
